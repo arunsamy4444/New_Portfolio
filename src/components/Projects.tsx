@@ -14,8 +14,8 @@ const Projects: React.FC = () => {
 const projects: Project[] = [
   {
     title: "Nexus AI Voice Assistant",
-    description: "An AI-powered voice assistant with WhatsApp reminders, document Q&A, text-to-speech, and voice input. Built with Node.js, MongoDB, and Gemini API for intelligent automation and efficiency.",
-    technologies: ["Node.js", "Express","React", "Gemini API", "Twilio", "Cron Jobs", "TTS"],
+    description: "An AI-powered voice assistant with Puter.js chatbot, Telegram integration, voice reminders, and activity tracking. Built with Node.js, Supabase, and Web Speech API for voice-enabled automation.",
+    technologies: ["Node.js", "Express", "React", "Puter.js API", "Supabase", "TTS", "STT"],
     liveUrl: "https://nexus-ai-assistant-nine.vercel.app/",
     githubUrl: "https://github.com/arunsamy4444/Nexus-AI-assistant"
   },
@@ -26,13 +26,13 @@ const projects: Project[] = [
     liveUrl: "https://task-forge-three.vercel.app/",
     githubUrl: "https://github.com/arunsamy4444/Task_Forge"
   },
-  {
-    title: "EU Translator App",
-    description: "A multilingual translator app with voice-to-text and text-to-voice support. Includes login/authentication, admin dashboard, and real-time translations between multiple European languages.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "STT", "TTS", "JWT"],
-    liveUrl: "https://eu-translator.vercel.app/",
-    githubUrl: "https://github.com/arunsamy4444/EU-Translator"
-  }
+{
+  title: "Farmify - Agro E-commerce",
+  description: "Full-stack agricultural e-commerce platform with user/admin roles, product management, image uploads, and order tracking. Built with MERN stack for seamless farm-to-consumer experience.",
+  technologies: ["React", "Node.js", "MongoDB", "Express", "Multer", "JWT"],
+  liveUrl: "https://farmify-delta.vercel.app/",
+  githubUrl: "https://github.com/arunsamy4444/Farmify"
+}
 ];
 
 
