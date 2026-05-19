@@ -21,14 +21,14 @@ const projects: Project[] = [
   },
   {
     title: "Task Forge",
-    description: "Task management app with user/admin login. Users can easily add/delete tasks and get daily automated email reminders with GitHub integration. Admin has full control over all tasks.",
+    description: "A lightweight automation prototype combining scheduled Python scripts and GitHub Actions to eliminate manual coordination delays. Features JWT-based user/admin access control and automated task tracking via MongoDB and SMTP email integrations..",
     technologies: ["Python","React", "Node.js", "MongoDB", "Express","JWT"],
     liveUrl: "https://task-forge-three.vercel.app/",
     githubUrl: "https://github.com/arunsamy4444/Task_Forge"
   },
 {
   title: "Farmify - Agro E-commerce",
-  description: "Full-stack agricultural e-commerce platform with user/admin roles, product management, image uploads, and order tracking. Built with MERN stack for seamless farm-to-consumer experience.",
+  description: "A MERN-stack prototype modeling product flow, transaction tracking, and role-based management in small-scale agricultural distribution environments. Features JWT authentication, inventory/order state transitions, and a centralized administrative control panel.",
   technologies: ["React", "Node.js", "MongoDB", "Express", "Multer", "JWT"],
   liveUrl: "https://farmify-delta.vercel.app/",
   githubUrl: "https://github.com/arunsamy4444/Farmify"
