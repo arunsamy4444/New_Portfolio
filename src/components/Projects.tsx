@@ -16,21 +16,21 @@ const projects: Project[] = [
     title: "Nexus AI Voice Assistant",
     description: "A voice-triggered reminder prototype that converts spoken input into structured events using browser-based APIs and cloud services. Features Supabase authentication, session management, and custom event-routing logic.",
     technologies: ["Node.js", "Express", "React", "Puter.js API", "Supabase", "Speech-to-Text & Text-to-Speech APIs"],
-    liveUrl: "https://nexus-ai-assistant-nine.vercel.app/",
+    // liveUrl: "https://nexus-ai-assistant-nine.vercel.app/",
     githubUrl: "https://github.com/arunsamy4444/Nexus-AI-assistant"
   },
   {
     title: "Task Forge",
     description: "A lightweight automation prototype combining scheduled Python scripts and GitHub Actions to eliminate manual coordination delays. Features JWT-based user/admin access control and automated task tracking via MongoDB and SMTP email integrations..",
     technologies: ["Python","React", "Node.js", "MongoDB", "Express","JWT"],
-    liveUrl: "https://task-forge-three.vercel.app/",
+    // liveUrl: "https://task-forge-three.vercel.app/",
     githubUrl: "https://github.com/arunsamy4444/Task_Forge"
   },
 {
   title: "Farmify - Agro E-commerce",
   description: "A MERN-stack prototype modeling product flow, transaction tracking, and role-based management in small-scale agricultural distribution environments. Features JWT authentication, inventory/order state transitions, and a centralized administrative control panel.",
   technologies: ["React", "Node.js", "MongoDB", "Express", "Multer", "JWT"],
-  liveUrl: "https://farmify-delta.vercel.app/",
+  // liveUrl: "https://farmify-delta.vercel.app/",
   githubUrl: "https://github.com/arunsamy4444/Farmify"
 }
 ];
