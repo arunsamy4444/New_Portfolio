@@ -34,16 +34,13 @@ const About: React.FC = () => {
               viewport={{ once: true }}
             >
               <p className="text-base sm:text-lg md:text-xl">
-              I build dynamic web applications with Node.js, Express, and MongoDB.  
-              Automation and smart backend solutions are my playground, with a dash of React magic.  
-              Python helps me streamline tasks and handle data efficiently.  
-              I merge logic and creativity to craft seamless, interactive digital experiences.
+I develop full-stack prototype applications, task automation tools, and backend systems using Node.js, Python, and MongoDB. My focus is on designing small-scale systems that automate tasks, manage application workflows, and handle database states. I focus on technical clarity, documenting system limitations honestly, and analyzing architectural tradeoffs during development. Always aiming to bridge practical implementation with rigorous software engineering methodologies
               </p>
 
-             <p className="text-base sm:text-lg md:text-xl">
+             {/* <p className="text-base sm:text-lg md:text-xl">
                 Always curious, I enjoy exploring new technologies and pushing the boundaries of what’s possible.  
   I aim to create software that not only works flawlessly but also delivers meaningful value to users.
-              </p>
+              </p> */}
 
             </motion.div>
             
