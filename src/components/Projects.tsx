@@ -15,7 +15,7 @@ const projects: Project[] = [
   {
     title: "Nexus AI Voice Assistant",
     description: "A voice-triggered reminder prototype that converts spoken input into structured events using browser-based APIs and cloud services. Features Supabase authentication, session management, and custom event-routing logic.",
-    technologies: ["Node.js", "Express", "React", "Puter.js API", "Supabase", "TTS", "STT"],
+    technologies: ["Node.js", "Express", "React", "Puter.js API", "Supabase", "Speech-to-Text & Text-to-Speech APIs"],
     liveUrl: "https://nexus-ai-assistant-nine.vercel.app/",
     githubUrl: "https://github.com/arunsamy4444/Nexus-AI-assistant"
   },
