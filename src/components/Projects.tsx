@@ -14,7 +14,7 @@ const Projects: React.FC = () => {
 const projects: Project[] = [
   {
     title: "Nexus AI Voice Assistant",
-    description: "An AI-powered voice assistant with Puter.js chatbot, Telegram integration, voice reminders, and activity tracking. Built with Node.js, Supabase, and Web Speech API for voice-enabled automation.",
+    description: "A voice-triggered reminder prototype that converts spoken input into structured events using browser-based APIs and cloud services. Features Supabase authentication, session management, and custom event-routing logic.",
     technologies: ["Node.js", "Express", "React", "Puter.js API", "Supabase", "TTS", "STT"],
     liveUrl: "https://nexus-ai-assistant-nine.vercel.app/",
     githubUrl: "https://github.com/arunsamy4444/Nexus-AI-assistant"
